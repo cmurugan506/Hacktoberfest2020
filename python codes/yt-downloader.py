@@ -60,7 +60,7 @@ class YoutubeDownloader():
                                 self.root.maxsize(300,150)
                                 self.root.minsize(300,150)
                                 self.root.title('Video Dowloading')
-                                self.root['bg'] = "white"
+                                self.root['bg'] =  "white"
 
                                 
                                 self.start_downloading = Label(self.root,text="Video downloading .....",fg="red",font=('verdana',10,'bold'),bg="white")
